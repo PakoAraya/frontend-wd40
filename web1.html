@@ -7,8 +7,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Retomando Front-End</title>
+  <style>
+    table, th, td{
+      border: 1px solid black;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Vamos a repasar tambien los conceptos de tabla -->
+  <table style="width: 500px;">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>  
+    </thead>
+    <tbody>
+      <tr>
+        <td>MiscelaBros</td>
+        <td>Gratis</td>
+      </tr>
+      <tr>
+        <td>Sony</td>
+        <td>19,99$</td>
+      </tr>
+      <tr>
+        <td>Huawei</td>
+        <td>29,90$</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td></td>
+      <td>Total 49.80$</td>
+    </tfoot>
+  </table>
+
+  <!-- ul es lista no ordenada -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+  </ul>
+  <!-- ol es lista ordenada -->
+  <ol>
+    <li>Elemento 1</li>
+    <!-- Podemos modificar el valor del orden de las listas -->
+    <li value="50">Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <!-- Pero tambien podemos modificar los elementos de las listas -->
+    <li>
+      <ol>
+        <!-- Tambien podemos modificar el valor para que en vez de numeros cambiarlo por letras u otros -->
+        <li style="list-style-type: lower-alpha;">Sub Elemento 1</li>
+        <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+        <li style="list-style-type: lower-greek;">Sub Elemento 3</li>
+      </ol>
+    </li>
+  </ol>
+
+
+
   <h1>Retomando el desarrollo web</h1>
   <h2>Vamos que se puede</h2>
   <h3>Todo esta en volver a echarse WD-40 y desoxidarse</h3>
