@@ -1,0 +1,71 @@
+
+#titulo{
+  color: tomato;
+}
+
+p.texto{
+  color: slateblue;
+}   
+
+p.especial{
+  color: mediumseagreen;
+}
+
+div p{
+  color: aquamarine;
+}
+
+div h2, div h3{
+  color: brown;
+}
+
+*{
+  font-size: 24px;
+  color: black;
+}
+/* Esto es un comentario en CSS */
+/* Convencion
+.color{
+  color: #ff0000;
+} 
+
+/* convencion RGB 
+.color{
+  color: rgb(0, 255, 255);
+}  */
+
+.color{
+  /* border: 5px red outset;  */
+  /*Propiedades del border 
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+  */
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  border-width: 2rem;
+}
+
+/* Manipulacion de fondo de imagenes */
+#fondo{
+  /* Se prueba colores con transparencia RGBA */
+  background-color: rgba(255, 0, 0);
+  /* opacity: 0.3; */
+  height: 200px;
+  background-image: url('/assets/img/espacio/evgeni-tcherkasski-Ap4h8QIxPVE-unsplash.jpg');
+  background-size: 100px 100px;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background: #f00 url('/assets/img/espacio/evgeni-tcherkasski-Ap4h8QIxPVE-unsplash.jpg') repeat-y center bottom / 100px 100px;
+}
+
+/* Quedamos viendo margin */
+
