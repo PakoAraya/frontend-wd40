@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retomando HTML 5 Básico</title>
+</head>
+<body>
+  <h1>Revisando varias etiquetas HTML</h1>
+  <h2>Titular H2</h2>
+  <h3>Titular H3</h3>
+  <h4>Titular H4</h4>
+  <h5>Titular H5</h5>
+  <h6>Titular H6</h6>
+  <hr>
+  <!-- Etiquetas para parrafo -->
+  <p>Esto es un párrafo</p>
+  <!-- Etiquetas para enlaces -->
+  <a href="#">Enlace de ejemplo</a>
+  <!-- Enlace que abre en otro pestaña -->
+   <a href="#" target="_blank">Enlace que abre en una pestaña en blanco</a>
+   <a href="mailto:correo@gmail.com">Enlace directo para que se envíe correo electrónico</a>
+  <hr>
+  <!-- Etiquetas de imagen -->
+  <img src="https://i.pinimg.com/736x/79/9a/48/799a487e8e8731f0f3761b51e599b7a7.jpg" alt="" width="300">
+  <hr>
+  <!-- Atributos en los tags -->
+   <!-- El atributo de la etiqueta a es href -->
+  <a href="#">Enlace a alguna Web</a>
+  <!-- El atributo de la etiqueta img es src que es la ruta donde esta la imagen y alt que indica texto de la imagen -->
+  <img src="" alt="Imagen de un logo">
+  <!-- El atributo que esta en todas las etiquetas es un elemento css que es style -->
+  <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos blanditiis magni quia non? Officiis aspernatur rerum animi quidem fugiat nostrum labore voluptates? Cum molestias ut quos nam illo, aliquid id.</p>
+  <!-- Otro atributo que se puede usar en las etiquetas es el title que muestra un texto al hacerle un mouse hover. -->
+  <p title="Hola, este es un texto de demostración">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos in atque cumque. Corrupti temporibus optio, doloribus est commodi natus aspernatur nesciunt non quo, saepe ut consequatur repudiandae quibusdam cupiditate.</p>
+  
+  <!-- Otra forma de trabajar texto y que quede tal como queremos es pre -->
+  <pre>
+    Yo no soy ese.
+        Soy este... 
+            que a veces va, y que a veces viene...
+  </pre>
+
+  <!-- Vamos a crear subindices -->
+  <p>Esto es un <b>Párrafo</b></p>
+  <p>Esto es un <strong>Párrafo</strong></p>
+  <p>Esto es un <i>Párrafo en cursiva</i></p>
+  <p>Esto también es un <em>Párrafo en cursiva</em></p>
+  <p>También podemos destacar texto con <mark>Párrafo</mark> </p>
+  <p>Y también podemos tachar texto <del>Párrafo</del> </p>
+  <p>Podemos hacer subindice así H<sub>2</sub>O</p>
+  <p>Podemos hacer super indice asi <sup>Párrafo</sup></p>
+
+  <!-- Creacion de tablas en html -->
+  <table style="border: 1px solid black;">
+    <!-- Filas TR -->
+     <tr>
+      <!-- Columnas de encabezados  TH -->
+       <th>Nombre</th>
+       <th>Appelido</th>
+       <th>Email</th>
+     </tr>
+     <tr>
+      <!-- Columnas normales TD -->
+       <td>PaKo</td>
+       <td>Araya</td>
+       <td>correo@gmail.com</td>
+     </tr>
+     <tr>
+      <!-- Podemos combinar las celdas y sus espacios, con colspan -->
+      <td colspan="2">PaKo Araya</td>
+      <td>correo@gmail.com</td>
+     </tr>
+     <tr></tr>
+      <!-- Podemos combinar las celdas y sus espacios, con rowspan -->
+       <td>PaKo</td>
+       <td rowspan="2">Araya</td>
+       <td>correo@gmail.com</td>
+     </tr>
+  </table>
+
+  <!-- Listas sin orden con HTML -->
+   <ul style="list-style-type:circle;">
+    <li>Tomates</li>
+    <li>Huevos</li>
+    <li>Manzanas</li>
+    <li>Bebidas</li>
+   </ul>
+
+  <!-- Lista ordenada -->
+  <ol>
+    <li>Tomates</li>
+    <li>Huevos</li>
+    <li>Manzanas</li>
+    <li>Bebidas</li>
+   </ol>
+
+
+</body>
+</html>
